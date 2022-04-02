@@ -1,0 +1,106 @@
+.container-home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo h1{
+    color: rgb(0, 87, 149);
+    font-size: 60px;
+}
+
+.logo span{
+    color: rgb(5, 69, 114);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.area-input{
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideY 2s;
+}
+
+@keyframes slideY{
+    from{
+        transform: translateY(100px);
+    }to{
+        transform: translateY(0px);
+
+    }
+}
+
+.area-input div{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.area-input svg{
+    margin: 0 8px;
+}
+
+.area-input input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    height: 60px;
+    color: white;
+    outline: none;
+    font-size: 18px;
+}
+
+.area-input input::placeholder{
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.area-input button{
+    width: 100%;
+    height: 60px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgb(2, 54, 91);
+    background-color: rgb(255, 255, 255, 0.8);
+    border: 0;
+    font-weight: bold;
+    margin-top: 8px;
+    transition: transform 0.7s;
+}
+
+.area-input button:hover{
+    transform: scale(1.02);
+}
+
+@media (max-width: 600px) {
+    .img {
+        width: 150px;
+    }
+    .logo h1{
+        font-size: 40px;
+    }
+
+    .logo span{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .area-input{
+        width: 85%;
+    }
+}
