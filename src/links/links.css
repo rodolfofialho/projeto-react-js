@@ -59,6 +59,13 @@
     background: transparent;
 }
 
+.txt{
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    margin-top: 30px;
+}
+
 @media (max-width: 720px){
     .links-item {
         width: 90%;

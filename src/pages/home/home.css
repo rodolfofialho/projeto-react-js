@@ -104,3 +104,9 @@
         width: 85%;
     }
 }
+
+@media (max-width: 400px){
+    .img{
+        display: none;
+    }
+}

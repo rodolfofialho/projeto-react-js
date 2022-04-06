@@ -6,6 +6,7 @@ import Menu from '../../componets/menu';
 import LinkItem from '../../componets/LinkItem';
 
 import api from '../../Services/api';
+import { saveLink } from '../../Services/storeLink';
 
 export default function Home(){
 
@@ -32,6 +33,9 @@ export default function Home(){
 
       setData(response.data);
       setShowModal(true);
+
+      saveLink('@encurtaLink', response.data
+      );
 
       setLink('');
 
