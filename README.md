@@ -1,3 +1,7 @@
+
+#Bitly https://dev.bitly.com/
+link para consulta sobre funcionamento da API utilizada para o desenvolvimento do projeto
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
